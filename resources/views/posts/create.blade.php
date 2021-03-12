@@ -7,7 +7,6 @@
         </h1>
         <form method="POST" action="{{ route('posts.store')}}">
            {{csrf_field()}}
-           {{ method_field('PUT')}}
            
            <fieldset class="mb-4">
                <div class="form-group">
